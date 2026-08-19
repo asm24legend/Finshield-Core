@@ -11,9 +11,9 @@ node_modules/
 out/
 
 # Environment secrets — NEVER commit these
+credentials.env
 .env
 .env.local
-.env.*.local
 
 # OS/editor junk
 .DS_Store
@@ -22,3 +22,4 @@ out/
 
 # Database
 *.db
+postgresql://postgres:asm.tade24@localhost:5432/finshield
