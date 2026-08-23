@@ -22,4 +22,3 @@ credentials.env
 
 # Database
 *.db
-postgresql://postgres:asm.tade24@localhost:5432/finshield
