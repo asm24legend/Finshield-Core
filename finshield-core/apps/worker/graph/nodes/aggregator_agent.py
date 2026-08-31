@@ -15,6 +15,7 @@ def aggregator_agent(state: CaseState) -> CaseState:
         db.refresh(run)
 
         time.sleep(1)
+        print("MARKER_AGGREGATOR_V2_RUNNING")
 
         final_output = {
             "score": 35,

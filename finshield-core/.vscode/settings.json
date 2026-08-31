@@ -1,5 +1,6 @@
 {
     "python.analysis.extraPaths": [
-        "./finshield-core"
+        "./finshield-core/apps/api",
+        "./finshield-core/apps/worker"
     ]
 }

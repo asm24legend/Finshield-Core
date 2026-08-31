@@ -1,6 +1,6 @@
 import sys
 import os
-sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "worker"))
+sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "worker")) 
 
 from tasks import run_case_pipeline
 import uuid
