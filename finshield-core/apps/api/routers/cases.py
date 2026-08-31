@@ -1,3 +1,8 @@
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "worker"))
+
+from tasks import run_case_pipeline
 import uuid
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
@@ -6,6 +11,7 @@ from db import get_db
 from models.case import Case
 from models.entity import Entity
 from schemas.case import CaseCreate, CaseRead
+ # the Celery task
 
 router = APIRouter(prefix="/cases", tags=["cases"])
 
@@ -24,6 +30,9 @@ def create_case(payload: CaseCreate, db: Session = Depends(get_db)):
     db.add(case)
     db.commit()
     db.refresh(case)
+
+    run_case_pipeline.delay(str(case.id))  # enqueue background processing
+
     return case
 
 
