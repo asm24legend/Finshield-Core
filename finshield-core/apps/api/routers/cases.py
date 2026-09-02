@@ -1,6 +1,6 @@
 import sys
 import os
-sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "worker")) 
+sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "worker"))
 
 from tasks import run_case_pipeline
 import uuid
@@ -10,8 +10,8 @@ from sqlalchemy.orm import Session
 from db import get_db
 from models.case import Case
 from models.entity import Entity
+from models.agent_run import AgentRun
 from schemas.case import CaseCreate, CaseRead
- # the Celery task
 
 router = APIRouter(prefix="/cases", tags=["cases"])
 
@@ -42,3 +42,18 @@ def get_case(case_id: uuid.UUID, db: Session = Depends(get_db)):
     if not case:
         raise HTTPException(status_code=404, detail="Case not found")
     return case
+
+
+@router.get("/{case_id}/agent-runs")
+def get_agent_runs(case_id: uuid.UUID, db: Session = Depends(get_db)):
+    runs = db.query(AgentRun).filter(AgentRun.case_id == case_id).order_by(AgentRun.started_at).all()
+    return [
+        {
+            "agent_name": r.agent_name,
+            "status": r.status,
+            "output": r.output,
+            "started_at": r.started_at,
+            "finished_at": r.finished_at,
+        }
+        for r in runs
+    ]
