@@ -62,3 +62,15 @@ export async function getAgentRuns(caseId: string): Promise<AgentRun[]> {
   if (!res.ok) throw new Error("Failed to fetch agent runs");
   return res.json();
 }
+export interface RiskAssessment {
+  score: number;
+  band: string;
+  rationale: string;
+}
+
+export async function getRiskAssessment(caseId: string): Promise<RiskAssessment | null> {
+  const res = await fetch(`${API_BASE}/cases/${caseId}/risk-assessment`);
+  if (res.status === 404) return null;
+  if (!res.ok) throw new Error("Failed to fetch risk assessment");
+  return res.json();
+}

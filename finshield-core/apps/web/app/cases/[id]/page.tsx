@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
-import { getCase, getAgentRuns, Case, AgentRun } from "@/lib/api";
+import { getCase, getAgentRuns, getRiskAssessment, Case, AgentRun, RiskAssessment } from "@/lib/api";
 
 const AGENT_LABELS: Record<string, string> = {
   kyc_agent: "KYC Verification",
@@ -30,23 +30,28 @@ export default function CaseDetail() {
   const caseId = params.id as string;
 
   const [caseData, setCaseData] = useState<Case | null>(null);
+  const [risk, setRisk] = useState<RiskAssessment | null>(null);
   const [runs, setRuns] = useState<AgentRun[]>([]);
 
   useEffect(() => {
     let active = true;
 
     async function poll() {
-      try {
-        const [c, r] = await Promise.all([getCase(caseId), getAgentRuns(caseId)]);
-        if (active) {
-          setCaseData(c);
-          setRuns(r);
-        }
-      } catch (err) {
-        console.error(err);
-      }
+  try {
+    const [c, r, riskData] = await Promise.all([
+      getCase(caseId),
+      getAgentRuns(caseId),
+      getRiskAssessment(caseId),
+    ]);
+    if (active) {
+      setCaseData(c);
+      setRuns(r);
+      setRisk(riskData);
     }
-
+  } catch (err) {
+    console.error(err);
+  }
+}
     poll();
     const interval = setInterval(poll, 2000);
 
@@ -66,6 +71,26 @@ export default function CaseDetail() {
           Status:{" "}
           <span className="font-medium text-slate-700">{caseData?.status ?? "loading..."}</span>
         </p>
+        {risk && (
+  <div className="mb-4 bg-white rounded-lg border border-slate-200 p-4 flex items-center justify-between">
+    <div>
+      <p className="text-xs text-slate-500">Risk score</p>
+      <p className="text-2xl font-semibold text-slate-900">{risk.score}</p>
+      <p className="text-xs text-slate-500 mt-1 max-w-sm">{risk.rationale}</p>
+    </div>
+    <span
+      className={`px-3 py-1 rounded-full text-xs font-medium whitespace-nowrap ${
+        risk.band === "low"
+          ? "bg-green-100 text-green-800"
+          : risk.band === "medium"
+          ? "bg-amber-100 text-amber-800"
+          : "bg-red-100 text-red-800"
+      }`}
+    >
+      {risk.band.toUpperCase()}
+    </span>
+  </div>
+)}
 
         <div className="bg-white rounded-lg border border-slate-200 divide-y divide-slate-100">
           {AGENT_ORDER.map((agentName) => {

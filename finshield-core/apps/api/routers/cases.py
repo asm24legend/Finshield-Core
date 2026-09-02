@@ -12,6 +12,7 @@ from models.case import Case
 from models.entity import Entity
 from models.agent_run import AgentRun
 from schemas.case import CaseCreate, CaseRead
+from models.risk_assessment import RiskAssessment as RiskAssessmentModel
 
 router = APIRouter(prefix="/cases", tags=["cases"])
 
@@ -57,3 +58,13 @@ def get_agent_runs(case_id: uuid.UUID, db: Session = Depends(get_db)):
         }
         for r in runs
     ]
+@router.get("/{case_id}/risk-assessment")
+def get_risk_assessment(case_id: uuid.UUID, db: Session = Depends(get_db)):
+    assessment = db.query(RiskAssessmentModel).filter(RiskAssessmentModel.case_id == case_id).first()
+    if not assessment:
+        raise HTTPException(status_code=404, detail="Risk assessment not yet available")
+    return {
+        "score": assessment.score,
+        "band": assessment.band,
+        "rationale": assessment.rationale,
+    }
