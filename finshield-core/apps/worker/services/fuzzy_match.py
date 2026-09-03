@@ -22,7 +22,12 @@ def find_sanctions_candidates(db, query_name: str, limit: int = 10):
         """),
         {"query_name": query_name, "limit": limit},
     )
-    return [dict(row._mapping) for row in result]
+    candidates = []
+    for row in result:
+        row_dict = dict(row._mapping)
+        row_dict["id"] = str(row_dict["id"])  # UUID -> string, so it's JSON-serializable downstream
+        candidates.append(row_dict)
+    return candidates
 
 
 def score_candidates(query_name: str, candidates: list[dict]) -> list[dict]:
