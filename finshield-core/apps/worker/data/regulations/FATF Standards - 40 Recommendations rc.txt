@@ -1,0 +1,1428 @@
+Financial Action Task Force
+
+Groupe d’action financière
+
+FATF Standards
+
+FATF 40
+Recommendations
+October 2003
+(incorporating all subsequent amendments until October 2004)
+The FATF revised the 40 and the IX Recommendations. The revision of the FATF Recommendation was adopted
+and published in February 2012. See www.fatf-gafi.org/recommendations for the 2012 FATF Recommendations.
+
+© 2010 FATF/OECD - 1
+
+FATF 40 Recommendations
+
+INTRODUCTION
+Money laundering methods and techniques change in response to developing counter-measures. In
+recent years, the Financial Action Task Force (FATF) 1 has noted increasingly sophisticated
+combinations of techniques, such as the increased use of legal persons to disguise the true ownership
+and control of illegal proceeds, and an increased use of professionals to provide advice and assistance
+in laundering criminal funds. These factors, combined with the experience gained through the FATF’s
+Non-Cooperative Countries and Territories process, and a number of national and international
+initiatives, led the FATF to review and revise the Forty Recommendations into a new comprehensive
+framework for combating money laundering and terrorist financing. The FATF now calls upon all
+countries to take the necessary steps to bring their national systems for combating money laundering
+and terrorist financing into compliance with the new FATF Recommendations, and to effectively
+implement these measures.
+The review process for revising the Forty Recommendations was an extensive one, open to FATF
+members, non-members, observers, financial and other affected sectors and interested parties. This
+consultation process provided a wide range of input, all of which was considered in the review
+process.
+The revised Forty Recommendations now apply not only to money laundering but also to terrorist
+financing, and when combined with the Eight Special Recommendations on Terrorist Financing
+provide an enhanced, comprehensive and consistent framework of measures for combating money
+laundering and terrorist financing. The FATF recognises that countries have diverse legal and
+financial systems and so all cannot take identical measures to achieve the common objective,
+especially over matters of detail. The Recommendations therefore set minimum standards for action
+for countries to implement the detail according to their particular circumstances and constitutional
+frameworks. The Recommendations cover all the measures that national systems should have in place
+within their criminal justice and regulatory systems; the preventive measures to be taken by financial
+institutions and certain other businesses and professions; and international co-operation.
+The original FATF Forty Recommendations were drawn up in 1990 as an initiative to combat the
+misuse of financial systems by persons laundering drug money. In 1996 the Recommendations were
+revised for the first time to reflect evolving money laundering typologies. The 1996 Forty
+Recommendations have been endorsed by more than 130 countries and are the international antimoney laundering standard.
+In October 2001 the FATF expanded its mandate to deal with the issue of the financing of terrorism,
+and took the important step of creating the Eight Special Recommendations on Terrorist Financing.
+These Recommendations contain a set of measures aimed at combating the funding of terrorist acts
+and terrorist organisations, and are complementary to the Forty Recommendations2.
+A key element in the fight against money laundering and the financing of terrorism is the need for
+countries systems to be monitored and evaluated, with respect to these international standards. The
+mutual evaluations conducted by the FATF and FATF-style regional bodies, as well as the
+assessments conducted by the IMF and World Bank, are a vital mechanism for ensuring that the
+FATF Recommendations are effectively implemented by all countries.
+
+1
+
+The FATF is an inter-governmental body which sets standards, and develops and promotes policies to combat
+money laundering and terrorist financing. It currently has 36 members: 34 countries and governments and two
+international organisations; and more than 20 observers: five FATF-style regional bodies and more than 15 other
+international organisations or bodies. A list of all members and observers can be found on the FATF website at
+www.fatf-gafi.org.
+2
+The FATF Forty and Eight Special Recommendations have been recognised by the International Monetary Fund
+and the World Bank as the international standards for combating money laundering and the financing of terrorism.
+
+2 - © 2010 FATF/OECD
+
+FATF 40 Recommendations
+
+THE FORTY RECOMMENDATIONS
+
+A.
+
+LEGAL SYSTEMS
+
+Scope of the criminal offence of money laundering
+
+1.
+
+Countries should criminalise money laundering on the basis of the United Nations Convention
+against Illicit Traffic in Narcotic Drugs and Psychotropic Substances, 1988 (the Vienna
+Convention) and the United Nations Convention against Transnational Organized Crime, 2000
+(the Palermo Convention).
+Countries should apply the crime of money laundering to all serious offences, with a view to
+including the widest range of predicate offences. Predicate offences may be described by
+reference to all offences, or to a threshold linked either to a category of serious offences or to
+the penalty of imprisonment applicable to the predicate offence (threshold approach), or to a list
+of predicate offences, or a combination of these approaches.
+Where countries apply a threshold approach, predicate offences should at a minimum comprise
+all offences that fall within the category of serious offences under their national law or should
+include offences which are punishable by a maximum penalty of more than one year’s
+imprisonment or for those countries that have a minimum threshold for offences in their legal
+system, predicate offences should comprise all offences, which are punished by a minimum
+penalty of more than six months imprisonment.
+Whichever approach is adopted, each country should at a minimum include a range of offences
+within each of the designated categories of offences3.
+Predicate offences for money laundering should extend to conduct that occurred in another
+country, which constitutes an offence in that country, and which would have constituted a
+predicate offence had it occurred domestically. Countries may provide that the only prerequisite
+is that the conduct would have constituted a predicate offence had it occurred domestically.
+Countries may provide that the offence of money laundering does not apply to persons who
+committed the predicate offence, where this is required by fundamental principles of their
+domestic law.
+
+2.
+
+Countries should ensure that:
+a)
+
+3
+
+The intent and knowledge required to prove the offence of money laundering is
+consistent with the standards set forth in the Vienna and Palermo Conventions, including
+the concept that such mental state may be inferred from objective factual circumstances.
+
+See the definition of “designated categories of offences” in the Glossary.
+
+© 2010 FATF/OECD - 3
+
+FATF 40 Recommendations
+
+b)
+
+Criminal liability, and, where that is not possible, civil or administrative liability, should
+apply to legal persons. This should not preclude parallel criminal, civil or administrative
+proceedings with respect to legal persons in countries in which such forms of liability are
+available. Legal persons should be subject to effective, proportionate and dissuasive
+sanctions. Such measures should be without prejudice to the criminal liability of
+individuals.
+
+Provisonal measures and confiscation
+
+3.
+
+Countries should adopt measures similar to those set forth in the Vienna and Palermo
+Conventions, including legislative measures, to enable their competent authorities to confiscate
+property laundered, proceeds from money laundering or predicate offences, instrumentalities
+used in or intended for use in the commission of these offences, or property of corresponding
+value, without prejudicing the rights of bona fide third parties.
+Such measures should include the authority to: (a) identify, trace and evaluate property which is
+subject to confiscation; (b) carry out provisional measures, such as freezing and seizing, to
+prevent any dealing, transfer or disposal of such property; (c) take steps that will prevent or
+void actions that prejudice the State’s ability to recover property that is subject to confiscation;
+and (d) take any appropriate investigative measures.
+Countries may consider adopting measures that allow such proceeds or instrumentalities to be
+confiscated without requiring a criminal conviction, or which require an offender to
+demonstrate the lawful origin of the property alleged to be liable to confiscation, to the extent
+that such a requirement is consistent with the principles of their domestic law.
+
+B.
+
+MEASURES TO BE TAKEN BY FINANCIAL INSTITUTIONS AND NONFINANCIAL BUSINESSES AND PROFESSIONS TO PREVENT MONEY
+LAUNDERING AND TERRORIST FINANCING
+
+4.
+
+Countries should ensure that financial institution secrecy laws do not inhibit implementation of
+the FATF Recommendations.
+
+Customer due diligence and record-keeping
+
+5.*
+
+Financial institutions should not keep anonymous accounts or accounts in obviously fictitious
+names.
+Financial institutions should undertake customer due diligence measures, including identifying
+and verifying the identity of their customers, when:
+ establishing business relations;
+ carrying out occasional transactions: (i) above the applicable designated threshold; or (ii)
+that are wire transfers in the circumstances covered by the Interpretative Note to Special
+Recommendation VII;
+ there is a suspicion of money laundering or terrorist financing; or
+ the financial institution has doubts about the veracity or adequacy of previously obtained
+customer identification data.
+
+4 - © 2010 FATF/OECD
+
+FATF 40 Recommendations
+
+The customer due diligence (CDD) measures to be taken are as follows:
+a) Identifying the customer and verifying that customer’s identity using reliable, independent
+source documents, data or information4.
+b) Identifying the beneficial owner, and taking reasonable measures to verify the identity of the
+beneficial owner such that the financial institution is satisfied that it knows who the
+beneficial owner is. For legal persons and arrangements this should include financial
+institutions taking reasonable measures to understand the ownership and control structure of
+the customer.
+c) Obtaining information on the purpose and intended nature of the business relationship.
+d) Conducting ongoing due diligence on the business relationship and scrutiny of transactions
+undertaken throughout the course of that relationship to ensure that the transactions being
+conducted are consistent with the institution’s knowledge of the customer, their business and
+risk profile, including, where necessary, the source of funds.
+Financial institutions should apply each of the CDD measures under (a) to (d) above, but may
+determine the extent of such measures on a risk sensitive basis depending on the type of
+customer, business relationship or transaction. The measures that are taken should be consistent
+with any guidelines issued by competent authorities. For higher risk categories, financial
+institutions should perform enhanced due diligence. In certain circumstances, where there are
+low risks, countries may decide that financial institutions can apply reduced or simplified
+measures.
+Financial institutions should verify the identity of the customer and beneficial owner before or
+during the course of establishing a business relationship or conducting transactions for
+occasional customers. Countries may permit financial institutions to complete the verification
+as soon as reasonably practicable following the establishment of the relationship, where the
+money laundering risks are effectively managed and where this is essential not to interrupt the
+normal conduct of business.
+Where the financial institution is unable to comply with paragraphs (a) to (c) above, it should
+not open the account, commence business relations or perform the transaction; or should
+terminate the business relationship; and should consider making a suspicious transactions report
+in relation to the customer.
+These requirements should apply to all new customers, though financial institutions should also
+apply this Recommendation to existing customers on the basis of materiality and risk, and
+should conduct due diligence on such existing relationships at appropriate times.
+
+6.*
+
+Financial institutions should, in relation to politically exposed persons, in addition to performing
+normal due diligence measures:
+a)
+
+Have appropriate risk management systems to determine whether the customer is a
+politically exposed person.
+
+4
+
+Reliable, independent source documents, data or information will hereafter be referred to as “identification
+data”.
+* Recommendations marked with an asterisk should be read in conjunction with their Interpretative Note.
+
+© 2010 FATF/OECD - 5
+
+FATF 40 Recommendations
+
+7.
+
+b)
+
+Obtain senior management approval for establishing business relationships with such
+customers.
+
+c)
+
+Take reasonable measures to establish the source of wealth and source of funds.
+
+d)
+
+Conduct enhanced ongoing monitoring of the business relationship.
+
+Financial institutions should, in relation to cross-border correspondent banking and other
+similar relationships, in addition to performing normal due diligence measures:
+a)
+
+Gather sufficient information about a respondent institution to understand fully the nature
+of the respondent’s business and to determine from publicly available information the
+reputation of the institution and the quality of supervision, including whether it has been
+subject to a money laundering or terrorist financing investigation or regulatory action.
+
+b)
+
+Assess the respondent institution’s anti-money laundering and terrorist financing
+controls.
+
+c)
+
+Obtain approval from senior management before establishing new correspondent
+relationships.
+
+d)
+
+Document the respective responsibilities of each institution.
+
+e)
+
+With respect to “payable-through accounts”, be satisfied that the respondent bank has
+verified the identity of and performed on-going due diligence on the customers having
+direct access to accounts of the correspondent and that it is able to provide relevant
+customer identification data upon request to the correspondent bank.
+
+8.
+
+Financial institutions should pay special attention to any money laundering threats that may
+arise from new or developing technologies that might favour anonymity, and take measures, if
+needed, to prevent their use in money laundering schemes. In particular, financial institutions
+should have policies and procedures in place to address any specific risks associated with nonface to face business relationships or transactions.
+
+9.*
+
+Countries may permit financial institutions to rely on intermediaries or other third parties to
+perform elements (a) – (c) of the CDD process or to introduce business, provided that the
+criteria set out below are met. Where such reliance is permitted, the ultimate responsibility for
+customer identification and verification remains with the financial institution relying on the
+third party.
+The criteria that should be met are as follows:
+a)
+
+A financial institution relying upon a third party should immediately obtain the necessary
+information concerning elements (a) – (c) of the CDD process. Financial institutions
+should take adequate steps to satisfy themselves that copies of identification data and
+other relevant documentation relating to the CDD requirements will be made available
+from the third party upon request without delay.
+
+b)
+
+The financial institution should satisfy itself that the third party is regulated and
+supervised for, and has measures in place to comply with CDD requirements in line with
+Recommendations 5 and 10.
+
+6 - © 2010 FATF/OECD
+
+FATF 40 Recommendations
+
+It is left to each country to determine in which countries the third party that meets the
+conditions can be based, having regard to information available on countries that do not or do
+not adequately apply the FATF Recommendations.
+
+10.* Financial institutions should maintain, for at least five years, all necessary records on
+transactions, both domestic or international, to enable them to comply swiftly with information
+requests from the competent authorities. Such records must be sufficient to permit
+reconstruction of individual transactions (including the amounts and types of currency involved
+if any) so as to provide, if necessary, evidence for prosecution of criminal activity.
+Financial institutions should keep records on the identification data obtained through the
+customer due diligence process (e.g. copies or records of official identification documents like
+passports, identity cards, driving licenses or similar documents), account files and business
+correspondence for at least five years after the business relationship is ended.
+The identification data and transaction records should be available to domestic competent
+authorities upon appropriate authority.
+
+11.* Financial institutions should pay special attention to all complex, unusual large transactions,
+and all unusual patterns of transactions, which have no apparent economic or visible lawful
+purpose. The background and purpose of such transactions should, as far as possible, be
+examined, the findings established in writing, and be available to help competent authorities
+and auditors.
+
+12.* The customer due diligence and record-keeping requirements set out in Recommendations 5, 6,
+and 8 to 11 apply to designated non-financial businesses and professions in the following
+situations:
+a)
+
+Casinos – when customers engage in financial transactions equal to or above the
+applicable designated threshold.
+
+b)
+
+Real estate agents - when they are involved in transactions for their client concerning the
+buying and selling of real estate.
+
+c)
+
+Dealers in precious metals and dealers in precious stones - when they engage in any cash
+transaction with a customer equal to or above the applicable designated threshold.
+
+d)
+
+Lawyers, notaries, other independent legal professionals and accountants when they
+prepare for or carry out transactions for their client concerning the following activities:
+
+
+
+
+
+
+e)
+
+buying and selling of real estate;
+managing of client money, securities or other assets;
+management of bank, savings or securities accounts;
+organisation of contributions for the creation, operation or management of
+companies;
+creation, operation or management of legal persons or arrangements, and buying and
+selling of business entities.
+
+Trust and company service providers when they prepare for or carry out transactions for
+a client concerning the activities listed in the definition in the Glossary.
+
+© 2010 FATF/OECD - 7
+
+FATF 40 Recommendations
+
+Reporting of suspicious transactions and compliance
+
+13.* If a financial institution suspects or has reasonable grounds to suspect that funds are the
+proceeds of a criminal activity, or are related to terrorist financing, it should be required,
+directly by law or regulation, to report promptly its suspicions to the financial intelligence unit
+(FIU).
+
+14.* Financial institutions, their directors, officers and employees should be:
+a)
+
+Protected by legal provisions from criminal and civil liability for breach of any
+restriction on disclosure of information imposed by contract or by any legislative,
+regulatory or administrative provision, if they report their suspicions in good faith to the
+FIU, even if they did not know precisely what the underlying criminal activity was, and
+regardless of whether illegal activity actually occurred.
+
+b)
+
+Prohibited by law from disclosing the fact that a suspicious transaction report (STR) or
+related information is being reported to the FIU.
+
+15.* Financial institutions should develop programmes against money laundering and terrorist
+financing. These programmes should include:
+a)
+
+The development of internal policies, procedures and controls, including appropriate
+compliance management arrangements, and adequate screening procedures to ensure
+high standards when hiring employees.
+
+b)
+
+An ongoing employee training programme.
+
+c)
+
+An audit function to test the system.
+
+16.* The requirements set out in Recommendations 13 to 15, and 21 apply to all designated nonfinancial businesses and professions, subject to the following qualifications:
+a)
+
+Lawyers, notaries, other independent legal professionals and accountants should be
+required to report suspicious transactions when, on behalf of or for a client, they engage
+in a financial transaction in relation to the activities described in Recommendation 12(d).
+Countries are strongly encouraged to extend the reporting requirement to the rest of the
+professional activities of accountants, including auditing.
+
+b)
+
+Dealers in precious metals and dealers in precious stones should be required to report
+suspicious transactions when they engage in any cash transaction with a customer equal
+to or above the applicable designated threshold.
+
+c)
+
+Trust and company service providers should be required to report suspicious transactions
+for a client when, on behalf of or for a client, they engage in a transaction in relation to
+the activities referred to Recommendation 12(e).
+
+Lawyers, notaries, other independent legal professionals, and accountants acting as independent
+legal professionals, are not required to report their suspicions if the relevant information was
+obtained in circumstances where they are subject to professional secrecy or legal professional
+privilege.
+
+8 - © 2010 FATF/OECD
+
+FATF 40 Recommendations
+
+Other measures to deter money laundering and terrorist financing
+
+17.
+
+Countries should ensure that effective, proportionate and dissuasive sanctions, whether
+criminal, civil or administrative, are available to deal with natural or legal persons covered by
+these Recommendations that fail to comply with anti-money laundering or terrorist financing
+requirements.
+
+18.
+
+Countries should not approve the establishment or accept the continued operation of shell
+banks. Financial institutions should refuse to enter into, or continue, a correspondent banking
+relationship with shell banks. Financial institutions should also guard against establishing
+relations with respondent foreign financial institutions that permit their accounts to be used by
+shell banks.
+
+19.
+
+Countries should consider the feasibility and utility of a system where banks and other financial
+institutions and intermediaries would report all domestic and international currency transactions
+above a fixed amount, to a national central agency with a computerised data base, available to
+competent authorities for use in money laundering or terrorist financing cases, subject to strict
+safeguards to ensure proper use of the information.
+
+20.
+
+Countries should consider applying the FATF Recommendations to businesses and professions,
+other than designated non-financial businesses and professions, that pose a money laundering
+or terrorist financing risk.
+Countries should further encourage the development of modern and secure techniques of
+money management that are less vulnerable to money laundering.
+
+Measures to be taken with respect to countries that do not or insufficiently comply with the FATF
+Recommendations
+
+21.
+
+Financial institutions should give special attention to business relationships and transactions
+with persons, including companies and financial institutions, from countries which do not or
+insufficiently apply the FATF Recommendations. Whenever these transactions have no
+apparent economic or visible lawful purpose, their background and purpose should, as far as
+possible, be examined, the findings established in writing, and be available to help competent
+authorities. Where such a country continues not to apply or insufficiently applies the FATF
+Recommendations, countries should be able to apply appropriate countermeasures.
+
+22.
+
+Financial institutions should ensure that the principles applicable to financial institutions, which
+are mentioned above are also applied to branches and majority owned subsidiaries located
+abroad, especially in countries which do not or insufficiently apply the FATF
+Recommendations, to the extent that local applicable laws and regulations permit. When local
+applicable laws and regulations prohibit this implementation, competent authorities in the
+country of the parent institution should be informed by the financial institutions that they
+cannot apply the FATF Recommendations.
+
+Regulation and supervision
+
+23.* Countries should ensure that financial institutions are subject to adequate regulation and
+supervision and are effectively implementing the FATF Recommendations. Competent
+
+© 2010 FATF/OECD - 9
+
+FATF 40 Recommendations
+
+authorities should take the necessary legal or regulatory measures to prevent criminals or their
+associates from holding or being the beneficial owner of a significant or controlling interest or
+holding a management function in a financial institution.
+For financial institutions subject to the Core Principles, the regulatory and supervisory
+measures that apply for prudential purposes and which are also relevant to money laundering,
+should apply in a similar manner for anti-money laundering and terrorist financing purposes.
+Other financial institutions should be licensed or registered and appropriately regulated, and
+subject to supervision or oversight for anti-money laundering purposes, having regard to the
+risk of money laundering or terrorist financing in that sector. At a minimum, businesses
+providing a service of money or value transfer, or of money or currency changing should be
+licensed or registered, and subject to effective systems for monitoring and ensuring compliance
+with national requirements to combat money laundering and terrorist financing.
+
+24.
+
+Designated non-financial businesses and professions should be subject to regulatory and
+supervisory measures as set out below.
+a)
+
+Casinos should be subject to a comprehensive regulatory and supervisory regime that
+ensures that they have effectively implemented the necessary anti-money laundering and
+terrorist-financing measures. At a minimum:
+
+
+
+
+b)
+
+casinos should be licensed;
+competent authorities should take the necessary legal or regulatory measures to
+prevent criminals or their associates from holding or being the beneficial owner of a
+significant or controlling interest, holding a management function in, or being an
+operator of a casino
+competent authorities should ensure that casinos are effectively supervised for
+compliance with requirements to combat money laundering and terrorist financing.
+
+Countries should ensure that the other categories of designated non-financial businesses
+and professions are subject to effective systems for monitoring and ensuring their
+compliance with requirements to combat money laundering and terrorist financing. This
+should be performed on a risk-sensitive basis. This may be performed by a government
+authority or by an appropriate self-regulatory organisation, provided that such an
+organisation can ensure that its members comply with their obligations to combat money
+laundering and terrorist financing.
+
+25.* The competent authorities should establish guidelines, and provide feedback which will assist
+financial institutions and designated non-financial businesses and professions in applying
+national measures to combat money laundering and terrorist financing, and in particular, in
+detecting and reporting suspicious transactions.
+
+C.
+
+INSTITUTIONAL AND OTHER MEASURES NECESSARY IN SYSTEMS FOR
+COMBATING MONEY LAUNDERING AND TERRORIST FINANCING
+
+Competent authorities, their powers and resources
+
+26.* Countries should establish a FIU that serves as a national centre for the receiving (and, as
+permitted, requesting), analysis and dissemination of STR and other information regarding
+
+10 - © 2010 FATF/OECD
+
+FATF 40 Recommendations
+
+potential money laundering or terrorist financing. The FIU should have access, directly or
+indirectly, on a timely basis to the financial, administrative and law enforcement information
+that it requires to properly undertake its functions, including the analysis of STR.
+
+27.* Countries should ensure that designated law enforcement authorities have responsibility for
+money laundering and terrorist financing investigations. Countries are encouraged to support
+and develop, as far as possible, special investigative techniques suitable for the investigation of
+money laundering, such as controlled delivery, undercover operations and other relevant
+techniques. Countries are also encouraged to use other effective mechanisms such as the use of
+permanent or temporary groups specialised in asset investigation, and co-operative
+investigations with appropriate competent authorities in other countries.
+
+28.
+
+When conducting investigations of money laundering and underlying predicate offences,
+competent authorities should be able to obtain documents and information for use in those
+investigations, and in prosecutions and related actions. This should include powers to use
+compulsory measures for the production of records held by financial institutions and other
+persons, for the search of persons and premises, and for the seizure and obtaining of evidence.
+
+29.
+
+Supervisors should have adequate powers to monitor and ensure compliance by financial
+institutions with requirements to combat money laundering and terrorist financing, including
+the authority to conduct inspections. They should be authorised to compel production of any
+information from financial institutions that is relevant to monitoring such compliance, and to
+impose adequate administrative sanctions for failure to comply with such requirements.
+
+30.
+
+Countries should provide their competent authorities involved in combating money laundering
+and terrorist financing with adequate financial, human and technical resources. Countries
+should have in place processes to ensure that the staff of those authorities are of high integrity.
+
+31.
+
+Countries should ensure that policy makers, the FIU, law enforcement and supervisors have
+effective mechanisms in place which enable them to co-operate, and where appropriate coordinate domestically with each other concerning the development and implementation of
+policies and activities to combat money laundering and terrorist financing.
+
+32.
+
+Countries should ensure that their competent authorities can review the effectiveness of their
+systems to combat money laundering and terrorist financing systems by maintaining
+comprehensive statistics on matters relevant to the effectiveness and efficiency of such systems.
+This should include statistics on the STR received and disseminated; on money laundering and
+terrorist financing investigations, prosecutions and convictions; on property frozen, seized and
+confiscated; and on mutual legal assistance or other international requests for co-operation.
+
+Transparency of legal persons and arrangements
+
+33.
+
+Countries should take measures to prevent the unlawful use of legal persons by money
+launderers. Countries should ensure that there is adequate, accurate and timely information on
+the beneficial ownership and control of legal persons that can be obtained or accessed in a
+timely fashion by competent authorities. In particular, countries that have legal persons that
+are able to issue bearer shares should take appropriate measures to ensure that they are not
+misused for money laundering and be able to demonstrate the adequacy of those measures.
+
+© 2010 FATF/OECD - 11
+
+FATF 40 Recommendations
+
+Countries could consider measures to facilitate access to beneficial ownership and control
+information to financial institutions undertaking the requirements set out in Recommendation 5.
+
+34.
+
+Countries should take measures to prevent the unlawful use of legal arrangements by money
+launderers. In particular, countries should ensure that there is adequate, accurate and timely
+information on express trusts, including information on the settlor, trustee and beneficiaries,
+that can be obtained or accessed in a timely fashion by competent authorities. Countries could
+consider measures to facilitate access to beneficial ownership and control information to
+financial institutions undertaking the requirements set out in Recommendation 5.
+
+D.
+
+INTERNATIONAL CO-OPERATION
+
+35.
+
+Countries should take immediate steps to become party to and implement fully the Vienna
+Convention, the Palermo Convention, and the 1999 United Nations International Convention
+for the Suppression of the Financing of Terrorism. Countries are also encouraged to ratify and
+implement other relevant international conventions, such as the 1990 Council of Europe
+Convention on Laundering, Search, Seizure and Confiscation of the Proceeds from Crime and
+the 2002 Inter-American Convention against Terrorism.
+
+Mutual legal assistance and extradition
+
+36. Countries should rapidly, constructively and effectively provide the widest possible range of
+mutual legal assistance in relation to money laundering and terrorist financing investigations,
+prosecutions, and related proceedings. In particular, countries should:
+a)
+
+Not prohibit or place unreasonable or unduly restrictive conditions on the provision of
+mutual legal assistance.
+
+b)
+
+Ensure that they have clear and efficient processes for the execution of mutual legal
+assistance requests.
+
+c)
+
+Not refuse to execute a request for mutual legal assistance on the sole ground that the
+offence is also considered to involve fiscal matters.
+
+d)
+
+Not refuse to execute a request for mutual legal assistance on the grounds that laws
+require financial institutions to maintain secrecy or confidentiality.
+
+Countries should ensure that the powers of their competent authorities required under
+Recommendation 28 are also available for use in response to requests for mutual legal
+assistance, and if consistent with their domestic framework, in response to direct requests from
+foreign judicial or law enforcement authorities to domestic counterparts.
+To avoid conflicts of jurisdiction, consideration should be given to devising and applying
+mechanisms for determining the best venue for prosecution of defendants in the interests of
+justice in cases that are subject to prosecution in more than one country.
+
+37.
+
+Countries should, to the greatest extent possible, render mutual legal assistance notwithstanding
+the absence of dual criminality.
+Where dual criminality is required for mutual legal assistance or extradition, that requirement
+should be deemed to be satisfied regardless of whether both countries place the offence within
+
+12 - © 2010 FATF/OECD
+
+FATF 40 Recommendations
+
+the same category of offence or denominate the offence by the same terminology, provided that
+both countries criminalise the conduct underlying the offence.
+
+38.* There should be authority to take expeditious action in response to requests by foreign countries
+to identify, freeze, seize and confiscate property laundered, proceeds from money laundering or
+predicate offences, instrumentalities used in or intended for use in the commission of these
+offences, or property of corresponding value. There should also be arrangements for coordinating seizure and confiscation proceedings, which may include the sharing of confiscated
+assets.
+
+39.
+
+Countries should recognise money laundering as an extraditable offence. Each country should
+either extradite its own nationals, or where a country does not do so solely on the grounds of
+nationality, that country should, at the request of the country seeking extradition, submit the
+case without undue delay to its competent authorities for the purpose of prosecution of the
+offences set forth in the request. Those authorities should take their decision and conduct their
+proceedings in the same manner as in the case of any other offence of a serious nature under the
+domestic law of that country. The countries concerned should cooperate with each other, in
+particular on procedural and evidentiary aspects, to ensure the efficiency of such prosecutions.
+Subject to their legal frameworks, countries may consider simplifying extradition by allowing
+direct transmission of extradition requests between appropriate ministries, extraditing persons
+based only on warrants of arrests or judgements, and/or introducing a simplified extradition of
+consenting persons who waive formal extradition proceedings.
+
+Other forms of co-operation
+
+40.* Countries should ensure that their competent authorities provide the widest possible range of
+international co-operation to their foreign counterparts. There should be clear and effective
+gateways to facilitate the prompt and constructive exchange directly between counterparts,
+either spontaneously or upon request, of information relating to both money laundering and the
+underlying predicate offences. Exchanges should be permitted without unduly restrictive
+conditions. In particular:
+a)
+
+Competent authorities should not refuse a request for assistance on the sole ground that
+the request is also considered to involve fiscal matters.
+
+b)
+
+Countries should not invoke laws that require financial institutions to maintain secrecy or
+confidentiality as a ground for refusing to provide co-operation.
+
+c)
+
+Competent authorities should be able to conduct inquiries; and where possible,
+investigations; on behalf of foreign counterparts.
+
+Where the ability to obtain information sought by a foreign competent authority is not within
+the mandate of its counterpart, countries are also encouraged to permit a prompt and
+constructive exchange of information with non-counterparts. Co-operation with foreign
+authorities other than counterparts could occur directly or indirectly. When uncertain about the
+appropriate avenue to follow, competent authorities should first contact their foreign
+counterparts for assistance.
+
+© 2010 FATF/OECD - 13
+
+FATF 40 Recommendations
+
+Countries should establish controls and safeguards to ensure that information exchanged by
+competent authorities is used only in an authorised manner, consistent with their obligations
+concerning privacy and data protection.
+
+14 - © 2010 FATF/OECD
+
+FATF 40 Recommendations
+
+GLOSSARY
+In these Recommendations the following abbreviations and references are used:
+“Beneficial owner” refers to the natural person(s) who ultimately owns or controls a customer and/or
+the person on whose behalf a transaction is being conducted. It also incorporates those persons who
+exercise ultimate effective control over a legal person or arrangement.
+“Core Principles” refers to the Core Principles for Effective Banking Supervision issued by the Basel
+Committee on Banking Supervision, the Objectives and Principles for Securities Regulation issued by
+the International Organization of Securities Commissions, and the Insurance Supervisory Principles
+issued by the International Association of Insurance Supervisors.
+“Designated categories of offences” means:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+participation in an organised criminal group and racketeering;
+terrorism, including terrorist financing;
+trafficking in human beings and migrant smuggling;
+sexual exploitation, including sexual exploitation of children;
+illicit trafficking in narcotic drugs and psychotropic substances;
+illicit arms trafficking;
+illicit trafficking in stolen and other goods;
+corruption and bribery;
+fraud;
+counterfeiting currency;
+counterfeiting and piracy of products;
+environmental crime;
+murder, grievous bodily injury;
+kidnapping, illegal restraint and hostage-taking;
+robbery or theft;
+smuggling;
+extortion;
+forgery;
+piracy; and
+insider trading and market manipulation.
+
+When deciding on the range of offences to be covered as predicate offences under each of the
+categories listed above, each country may decide, in accordance with its domestic law, how it will
+define those offences and the nature of any particular elements of those offences that make them
+serious offences.
+“Designated non-financial businesses and professions” means:
+a)
+
+Casinos (which also includes internet casinos).
+
+© 2010 FATF/OECD - 15
+
+FATF 40 Recommendations
+
+b)
+
+Real estate agents.
+
+c)
+
+Dealers in precious metals.
+
+d)
+
+Dealers in precious stones.
+
+e)
+
+Lawyers, notaries, other independent legal professionals and accountants – this refers to sole
+practitioners, partners or employed professionals within professional firms. It is not meant to
+refer to ‘internal’ professionals that are employees of other types of businesses, nor to
+professionals working for government agencies, who may already be subject to measures that
+would combat money laundering.
+
+f)
+
+Trust and Company Service Providers refers to all persons or businesses that are not covered
+elsewhere under these Recommendations, and which as a business, provide any of the
+following services to third parties:
+
+
+acting as a formation agent of legal persons;
+
+
+
+acting as (or arranging for another person to act as) a director or secretary of a company,
+a partner of a partnership, or a similar position in relation to other legal persons;
+
+
+
+providing a registered office; business address or accommodation, correspondence or
+administrative address for a company, a partnership or any other legal person or
+arrangement;
+
+
+
+acting as (or arranging for another person to act as) a trustee of an express trust;
+
+
+
+acting as (or arranging for another person to act as) a nominee shareholder for another
+person.
+
+“Designated threshold” refers to the amount set out in the Interpretative Notes.
+“Financial institutions” means any person or entity who conducts as a business one or more of the
+following activities or operations for or on behalf of a customer:
+1.
+
+Acceptance of deposits and other repayable funds from the public.5
+
+2.
+
+Lending.6
+
+3.
+
+Financial leasing.7
+
+4.
+
+The transfer of money or value.8
+
+5.
+
+Issuing and managing means of payment (e.g. credit and debit cards, cheques, traveller's
+cheques, money orders and bankers' drafts, electronic money).
+
+6.
+
+Financial guarantees and commitments.
+
+7.
+
+Trading in:
+(a) money market instruments (cheques, bills, CDs, derivatives etc.);
+(b) foreign exchange;
+
+5
+
+This also captures private banking.
+
+6
+
+This includes inter alia: consumer credit; mortgage credit; factoring, with or without recourse; and finance of
+commercial transactions (including forfaiting).
+7
+
+This does not extend to financial leasing arrangements in relation to consumer products.
+
+8
+
+This applies to financial activity in both the formal or informal sector e.g. alternative remittance activity. See
+the Interpretative Note to Special Recommendation VI. It does not apply to any natural or legal person that
+provides financial institutions solely with message or other support systems for transmitting funds. See the
+Interpretative Note to Special Recommendation VII.
+
+16 - © 2010 FATF/OECD
+
+FATF 40 Recommendations
+
+(c) exchange, interest rate and index instruments;
+(d) transferable securities;
+(e) commodity futures trading.
+8.
+9.
+10.
+11.
+12.
+
+Participation in securities issues and the provision of financial services related to such
+issues.
+Individual and collective portfolio management.
+Safekeeping and administration of cash or liquid securities on behalf of other persons.
+Otherwise investing, administering or managing funds or money on behalf of other persons.
+Underwriting and placement of life insurance and other investment related insurance9.
+
+13.
+
+Money and currency changing.
+
+When a financial activity is carried out by a person or entity on an occasional or very limited basis
+(having regard to quantitative and absolute criteria) such that there is little risk of money
+laundering activity occurring, a country may decide that the application of anti-money laundering
+measures is not necessary, either fully or partially.
+In strictly limited and justified circumstances, and based on a proven low risk of money
+laundering, a country may decide not to apply some or all of the Forty Recommendations to some
+of the financial activities stated above.
+“FIU” means financial intelligence unit.
+“Legal arrangements” refers to express trusts or other similar legal arrangements.
+“Legal persons” refers to bodies corporate, foundations, anstalt, partnerships, or associations, or any
+similar bodies that can establish a permanent customer relationship with a financial institution or
+otherwise own property.
+“Payable-through accounts” refers to correspondent accounts that are used directly by third parties
+to transact business on their own behalf.
+“Politically Exposed Persons” (PEPs) are individuals who are or have been entrusted with prominent
+public functions in a foreign country, for example Heads of State or of government, senior politicians,
+senior government, judicial or military officials, senior executives of state owned corporations,
+important political party officials. Business relationships with family members or close associates of
+PEPs involve reputational risks similar to those with PEPs themselves. The definition is not intended
+to cover middle ranking or more junior individuals in the foregoing categories.
+“Shell bank” means a bank incorporated in a jurisdiction in which it has no physical presence and
+which is unaffiliated with a regulated financial group.
+“STR” refers to suspicious transaction reports.
+“Supervisors” refers to the designated competent authorities responsible for ensuring compliance by
+financial institutions with requirements to combat money laundering and terrorist financing.
+“the FATF Recommendations” refers to these Recommendations and to the FATF Special
+Recommendations on Terrorist Financing.
+
+9
+
+This applies both to insurance undertakings and to insurance intermediaries (agents and brokers).
+
+© 2010 FATF/OECD - 17
+
+FATF 40 Recommendations
+
+INTERPRETATIVE NOTES
+General
+1.
+
+Reference in this document to “countries” should be taken to apply equally to “territories” or
+“jurisdictions”.
+
+2.
+
+Recommendations 5-16 and 21-22 state that financial institutions or designated non-financial
+businesses and professions should take certain actions. These references require countries to
+take measures that will oblige financial institutions or designated non-financial businesses and
+professions to comply with each Recommendation. The basic obligations under
+Recommendations 5, 10 and 13 should be set out in law or regulation, while more detailed
+elements in those Recommendations, as well as obligations under other Recommendations,
+could be required either by law or regulation or by other enforceable means issued by a
+competent authority.
+
+3.
+
+Where reference is made to a financial institution being satisfied as to a matter, that institution
+must be able to justify its assessment to competent authorities.
+
+4.
+
+To comply with Recommendations 12 and 16, countries do not need to issue laws or
+regulations that relate exclusively to lawyers, notaries, accountants and the other designated
+non-financial businesses and professions so long as these businesses or professions are included
+in laws or regulations covering the underlying activities.
+
+5.
+
+The Interpretative Notes that apply to financial institutions are also relevant to designated nonfinancial businesses and professions, where applicable.
+
+Recommendations 5, 12 and 16
+The designated thresholds for transactions (under Recommendations 5 and 12) are as follows:
+
+
+Financial institutions (for occasional customers under Recommendation 5) USD/EUR 15 000.
+
+
+
+Casinos, including internet casinos (under Recommendation 12) - USD/EUR 3 000
+
+
+
+For dealers in precious metals and dealers in precious stones when engaged in any cash
+transaction (under Recommendations 12 and 16) - USD/EUR 15 000.
+
+Financial transactions above a designated threshold include situations where the transaction is carried
+out in a single operation or in several operations that appear to be linked.
+
+18 - © 2010 FATF/OECD
+
+FATF 40 Recommendations
+
+Recommendation 5
+Customer due diligence and tipping off
+1.
+
+If, during the establishment or course of the customer relationship, or when conducting
+occasional transactions, a financial institution suspects that transactions relate to money
+laundering or terrorist financing, then the institution should:
+a)
+
+Normally seek to identify and verify the identity of the customer and the beneficial
+owner, whether permanent or occasional, and irrespective of any exemption or any
+designated threshold that might otherwise apply.
+
+b)
+
+Make a STR to the FIU in accordance with Recommendation 13.
+
+2.
+
+Recommendation 14 prohibits financial institutions, their directors, officers and employees
+from disclosing the fact that an STR or related information is being reported to the FIU. A risk
+exists that customers could be unintentionally tipped off when the financial institution is
+seeking to perform its customer due diligence (CDD) obligations in these circumstances. The
+customer’s awareness of a possible STR or investigation could compromise future efforts to
+investigate the suspected money laundering or terrorist financing operation.
+
+3.
+
+Therefore, if financial institutions form a suspicion that transactions relate to money laundering
+or terrorist financing, they should take into account the risk of tipping off when performing the
+customer due diligence process. If the institution reasonably believes that performing the CDD
+process will tip-off the customer or potential customer, it may choose not to pursue that
+process, and should file an STR. Institutions should ensure that their employees are aware of
+and sensitive to these issues when conducting CDD.
+
+CDD for legal persons and arrangements
+4.
+
+When performing elements (a) and (b) of the CDD process in relation to legal persons or
+arrangements, financial institutions should:
+a)
+
+Verify that any person purporting to act on behalf of the customer is so authorised, and
+identify that person.
+
+b)
+
+Identify the customer and verify its identity - the types of measures that would be
+normally needed to satisfactorily perform this function would require obtaining proof of
+incorporation or similar evidence of the legal status of the legal person or arrangement,
+as well as information concerning the customer’s name, the names of trustees, legal
+form, address, directors, and provisions regulating the power to bind the legal person or
+arrangement.
+
+c)
+
+Identify the beneficial owners, including forming an understanding of the ownership and
+control structure, and take reasonable measures to verify the identity of such persons.
+The types of measures that would be normally needed to satisfactorily perform this
+function would require identifying the natural persons with a controlling interest and
+identifying the natural persons who comprise the mind and management of the legal
+person or arrangement. Where the customer or the owner of the controlling interest is a
+public company that is subject to regulatory disclosure requirements, it is not necessary
+to seek to identify and verify the identity of any shareholder of that company.
+
+© 2010 FATF/OECD - 19
+
+FATF 40 Recommendations
+
+The relevant information or data may be obtained from a public register, from the customer or
+from other reliable sources.
+Reliance on identification and verification already performed
+5.
+
+The CDD measures set out in Recommendation 5 do not imply that financial institutions have
+to repeatedly identify and verify the identity of each customer every time that a customer
+conducts a transaction. An institution is entitled to rely on the identification and verification
+steps that it has already undertaken unless it has doubts about the veracity of that information.
+Examples of situations that might lead an institution to have such doubts could be where there
+is a suspicion of money laundering in relation to that customer, or where there is a material
+change in the way that the customer’s account is operated which is not consistent with the
+customer’s business profile.
+
+Timing of verification
+6.
+
+7.
+
+Examples of the types of circumstances where it would be permissible for verification to be
+completed after the establishment of the business relationship, because it would be essential not
+to interrupt the normal conduct of business include:
+
+
+Non face-to-face business.
+
+
+
+Securities transactions. In the securities industry, companies and intermediaries may be
+required to perform transactions very rapidly, according to the market conditions at the
+time the customer is contacting them, and the performance of the transaction may be
+required before verification of identity is completed.
+
+
+
+Life insurance business. In relation to life insurance business, countries may permit the
+identification and verification of the beneficiary under the policy to take place after having
+established the business relationship with the policyholder. However, in all such cases,
+identification and verification should occur at or before the time of payout or the time
+where the beneficiary intends to exercise vested rights under the policy.
+
+Financial institutions will also need to adopt risk management procedures with respect to the
+conditions under which a customer may utilise the business relationship prior to verification.
+These procedures should include a set of measures such as a limitation of the number, types
+and/or amount of transactions that can be performed and the monitoring of large or complex
+transactions being carried out outside of expected norms for that type of relationship. Financial
+institutions should refer to the Basel CDD paper10 (section 2.2.6.) for specific guidance on
+examples of risk management measures for non-face to face business.
+
+Requirement to identify existing customers
+8.
+
+The principles set out in the Basel CDD paper concerning the identification of existing
+customers should serve as guidance when applying customer due diligence processes to
+institutions engaged in banking activity, and could apply to other financial institutions where
+relevant.
+
+10
+
+“Basel CDD paper” refers to the guidance paper on Customer Due Diligence for Banks issued by the Basel
+Committee on Banking Supervision in October 2001.
+
+20 - © 2010 FATF/OECD
+
+FATF 40 Recommendations
+
+Simplified or reduced CDD measures
+9.
+
+The general rule is that customers must be subject to the full range of CDD measures, including
+the requirement to identify the beneficial owner. Nevertheless there are circumstances where
+the risk of money laundering or terrorist financing is lower, where information on the identity
+of the customer and the beneficial owner of a customer is publicly available, or where adequate
+checks and controls exist elsewhere in national systems. In such circumstances it could be
+reasonable for a country to allow its financial institutions to apply simplified or reduced CDD
+measures when identifying and verifying the identity of the customer and the beneficial owner.
+
+10.
+
+Examples of customers where simplified or reduced CDD measures could apply are:
+
+
+Financial institutions – where they are subject to requirements to combat money
+laundering and terrorist financing consistent with the FATF Recommendations and are
+supervised for compliance with those controls.
+
+
+
+Public companies that are subject to regulatory disclosure requirements.
+
+
+
+Government administrations or enterprises.
+
+11.
+
+Simplified or reduced CDD measures could also apply to the beneficial owners of pooled
+accounts held by designated non financial businesses or professions provided that those
+businesses or professions are subject to requirements to combat money laundering and terrorist
+financing consistent with the FATF Recommendations and are subject to effective systems for
+monitoring and ensuring their compliance with those requirements. Banks should also refer to
+the Basel CDD paper (section 2.2.4.), which provides specific guidance concerning situations
+where an account holding institution may rely on a customer that is a professional financial
+intermediary to perform the customer due diligence on his or its own customers (i.e. the
+beneficial owners of the bank account). Where relevant, the CDD Paper could also provide
+guidance in relation to similar accounts held by other types of financial institutions.
+
+12.
+
+Simplified CDD or reduced measures could also be acceptable for various types of products or
+transactions such as (examples only):
+
+13.
+
+
+
+Life insurance policies where the annual premium is no more than USD/EUR 1 000 or a
+single premium of no more than USD/EUR 2 500.
+
+
+
+Insurance policies for pension schemes if there is no surrender clause and the policy
+cannot be used as collateral.
+
+
+
+A pension, superannuation or similar scheme that provides retirement benefits to
+employees, where contributions are made by way of deduction from wages and the scheme
+rules do not permit the assignment of a member’s interest under the scheme.
+
+Countries could also decide whether financial institutions could apply these simplified
+measures only to customers in its own jurisdiction or allow them to do for customers from any
+other jurisdiction that the original country is satisfied is in compliance with and has effectively
+implemented the FATF Recommendations.
+Simplified CDD measures are not acceptable whenever there is suspicion of money laundering
+or terrorist financing or specific higher risk scenarios apply.
+
+© 2010 FATF/OECD - 21
+
+FATF 40 Recommendations
+
+Recommendation 6
+Countries are encouraged to extend the requirements of Recommendation 6 to individuals who hold
+prominent public functions in their own country.
+Recommendation 9
+This Recommendation does not apply to outsourcing or agency relationships.
+This Recommendation also does not apply to relationships, accounts or transactions between financial
+institutions for their clients. Those relationships are addressed by Recommendations 5 and 7.
+Recommendations 10 and 11
+In relation to insurance business, the word “transactions” should be understood to refer to the
+insurance product itself, the premium payment and the benefits.
+Recommendation 13
+1.
+
+The reference to criminal activity in Recommendation 13 refers to:
+a)
+
+all criminal acts that would constitute a predicate offence for money laundering in the
+jurisdiction; or
+
+b)
+
+at a minimum to those offences that would constitute a predicate offence as required by
+Recommendation 1.
+
+Countries are strongly encouraged to adopt alternative (a). All suspicious transactions,
+including attempted transactions, should be reported regardless of the amount of the
+transaction.
+2.
+
+In implementing Recommendation 13, suspicious transactions should be reported by financial
+institutions regardless of whether they are also thought to involve tax matters. Countries should
+take into account that, in order to deter financial institutions from reporting a suspicious
+transaction, money launderers may seek to state inter alia that their transactions relate to tax
+matters.
+
+Recommendation 14 (tipping off)
+Where lawyers, notaries, other independent legal professionals and accountants acting as independent
+legal professionals seek to dissuade a client from engaging in illegal activity, this does not amount to
+tipping off.
+Recommendation 15
+The type and extent of measures to be taken for each of the requirements set out in the
+Recommendation should be appropriate having regard to the risk of money laundering and terrorist
+financing and the size of the business.
+For financial institutions, compliance management arrangements should include the appointment of a
+compliance officer at the management level.
+
+22 - © 2010 FATF/OECD
+
+FATF 40 Recommendations
+
+Recommendation 16
+1.
+
+It is for each jurisdiction to determine the matters that would fall under legal professional
+privilege or professional secrecy. This would normally cover information lawyers, notaries or
+other independent legal professionals receive from or obtain through one of their clients: (a) in
+the course of ascertaining the legal position of their client, or (b) in performing their task of
+defending or representing that client in, or concerning judicial, administrative, arbitration or
+mediation proceedings. Where accountants are subject to the same obligations of secrecy or
+privilege, then they are also not required to report suspicious transactions.
+
+2.
+
+Countries may allow lawyers, notaries, other independent legal professionals and accountants
+to send their STR to their appropriate self-regulatory organisations, provided that there are
+appropriate forms of co-operation between these organisations and the FIU.
+
+Recommendation 23
+Recommendation 23 should not be read as to require the introduction of a system of regular review of
+licensing of controlling interests in financial institutions merely for anti-money laundering purposes,
+but as to stress the desirability of suitability review for controlling shareholders in financial
+institutions (banks and non-banks in particular) from a FATF point of view. Hence, where
+shareholder suitability (or “fit and proper”) tests exist, the attention of supervisors should be drawn to
+their relevance for anti-money laundering purposes.
+Recommendation 25
+When considering the feedback that should be provided, countries should have regard to the FATF
+Best Practice Guidelines on Providing Feedback to Reporting Financial Institutions and Other
+Persons.
+Recommendation 26
+Where a country has created an FIU, it should consider applying for membership in the Egmont
+Group. Countries should have regard to the Egmont Group Statement of Purpose, and its Principles
+for Information Exchange Between Financial Intelligence Units for Money Laundering Cases. These
+documents set out important guidance concerning the role and functions of FIUs, and the mechanisms
+for exchanging information between FIU.
+Recommendation 27
+Countries should consider taking measures, including legislative ones, at the national level, to allow
+their competent authorities investigating money laundering cases to postpone or waive the arrest of
+suspected persons and/or the seizure of the money for the purpose of identifying persons involved in
+such activities or for evidence gathering. Without such measures the use of procedures such as
+controlled deliveries and undercover operations are precluded.
+
+© 2010 FATF/OECD - 23
+
+FATF 40 Recommendations
+
+Recommendation 38
+Countries should consider:
+a)
+
+Establishing an asset forfeiture fund in its respective country into which all or a portion of
+confiscated property will be deposited for law enforcement, health, education, or other
+appropriate purposes.
+
+b)
+
+Taking such measures as may be necessary to enable it to share among or between other
+countries confiscated property, in particular, when confiscation is directly or indirectly a result
+of co-ordinated law enforcement actions.
+
+Recommendation 40
+1.
+
+For the purposes of this Recommendation:
+
+
+“Counterparts” refers to authorities that exercise similar responsibilities and functions.
+
+
+
+“Competent authority” refers to all administrative and law enforcement authorities
+concerned with combating money laundering and terrorist financing, including the FIU
+and supervisors.
+
+2.
+
+Depending on the type of competent authority involved and the nature and purpose of the cooperation, different channels can be appropriate for the exchange of information. Examples of
+mechanisms or channels that are used to exchange information include: bilateral or multilateral
+agreements or arrangements, memoranda of understanding, exchanges on the basis of
+reciprocity, or through appropriate international or regional organisations. However, this
+Recommendation is not intended to cover co-operation in relation to mutual legal assistance or
+extradition.
+
+3.
+
+The reference to indirect exchange of information with foreign authorities other than
+counterparts covers the situation where the requested information passes from the foreign
+authority through one or more domestic or foreign authorities before being received by the
+requesting authority. The competent authority that requests the information should always make
+it clear for what purpose and on whose behalf the request is made.
+
+4.
+
+FIUs should be able to make inquiries on behalf of foreign counterparts where this could be
+relevant to an analysis of financial transactions. At a minimum, inquiries should include:
+
+
+Searching its own databases, which would include information related to suspicious
+transaction reports.
+
+
+
+Searching other databases to which it may have direct or indirect access, including law
+enforcement databases, public databases, administrative databases and commercially
+available databases.
+
+Where permitted to do so, FIUs should also contact other competent authorities and financial
+institutions in order to obtain relevant information.
+
+24 - © 2010 FATF/OECD
+
+

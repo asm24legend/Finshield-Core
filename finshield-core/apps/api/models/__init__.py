@@ -5,8 +5,9 @@ from models.document import Document
 from models.agent_run import AgentRun
 from models.risk_assessment import RiskAssessment
 from models.sanctions_entry import SanctionsEntry
+from models.regulation_embedding import RegulationEmbedding
 
 __all__ = [
     "Entity", "Case", "Transaction", "Document",
-    "AgentRun", "RiskAssessment", "SanctionsEntry",
+    "AgentRun", "RiskAssessment", "SanctionsEntry", "RegulationEmbedding",
 ]
