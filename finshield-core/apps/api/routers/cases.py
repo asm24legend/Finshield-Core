@@ -6,6 +6,8 @@ from tasks import run_case_pipeline
 import uuid
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
+from fastapi.responses import Response
+from services.report_builder import build_compliance_report
 
 from db import get_db
 from models.case import Case
@@ -68,3 +70,30 @@ def get_risk_assessment(case_id: uuid.UUID, db: Session = Depends(get_db)):
         "band": assessment.band,
         "rationale": assessment.rationale,
     }
+@router.get("/{case_id}/report")
+def download_report(case_id: uuid.UUID, db: Session = Depends(get_db)):
+    case = db.query(Case).filter(Case.id == case_id).first()
+    if not case:
+        raise HTTPException(status_code=404, detail="Case not found")
+
+    entity = db.query(Entity).filter(Entity.id == case.entity_id).first()
+    runs = db.query(AgentRun).filter(AgentRun.case_id == case_id).order_by(AgentRun.started_at).all()
+    assessment = db.query(RiskAssessmentModel).filter(RiskAssessmentModel.case_id == case_id).first()
+
+    pdf_bytes = build_compliance_report(
+        case={"id": str(case.id), "case_type": case.case_type},
+        entity={"name": entity.name, "entity_type": entity.entity_type, "jurisdiction": entity.jurisdiction},
+        agent_runs=[
+            {"agent_name": r.agent_name, "status": r.status, "output": r.output}
+            for r in runs
+        ],
+        risk_assessment={
+            "score": assessment.score, "band": assessment.band, "rationale": assessment.rationale
+        } if assessment else None,
+    )
+
+    return Response(
+        content=pdf_bytes,
+        media_type="application/pdf",
+        headers={"Content-Disposition": f"attachment; filename=case_{case_id}_report.pdf"},
+    )
