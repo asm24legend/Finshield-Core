@@ -74,3 +74,31 @@ export async function getRiskAssessment(caseId: string): Promise<RiskAssessment 
   if (!res.ok) throw new Error("Failed to fetch risk assessment");
   return res.json();
 }
+
+export function getReportUrl(caseId: string): string {
+  return `${API_BASE}/cases/${caseId}/report`;
+}
+
+export interface Review {
+  id: string;
+  decision: string;
+  reviewer_note: string | null;
+  reviewed_at: string;
+}
+
+export async function submitReview(caseId: string, decision: string, note?: string): Promise<Review> {
+  const res = await fetch(`${API_BASE}/cases/${caseId}/review`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ decision, reviewer_note: note }),
+  });
+  if (!res.ok) throw new Error("Failed to submit review");
+  return res.json();
+}
+
+export async function getReview(caseId: string): Promise<Review | null> {
+  const res = await fetch(`${API_BASE}/cases/${caseId}/review`);
+  if (res.status === 404) return null;
+  if (!res.ok) throw new Error("Failed to fetch review");
+  return res.json();
+}

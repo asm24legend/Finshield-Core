@@ -6,8 +6,9 @@ from models.agent_run import AgentRun
 from models.risk_assessment import RiskAssessment
 from models.sanctions_entry import SanctionsEntry
 from models.regulation_embedding import RegulationEmbedding
+from models.review import Review
 
 __all__ = [
     "Entity", "Case", "Transaction", "Document",
-    "AgentRun", "RiskAssessment", "SanctionsEntry", "RegulationEmbedding",
+    "AgentRun", "RiskAssessment", "SanctionsEntry", "RegulationEmbedding", "Review"
 ]

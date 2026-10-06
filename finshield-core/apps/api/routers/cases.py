@@ -8,6 +8,7 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from fastapi.responses import Response
 from services.report_builder import build_compliance_report
+from pydantic import BaseModel
 
 from db import get_db
 from models.case import Case
@@ -15,6 +16,11 @@ from models.entity import Entity
 from models.agent_run import AgentRun
 from schemas.case import CaseCreate, CaseRead
 from models.risk_assessment import RiskAssessment as RiskAssessmentModel
+from models.review import Review
+
+class ReviewCreate(BaseModel):
+    decision: str  # "approved" | "rejected" | "needs_info"
+    reviewer_note: str | None = None
 
 router = APIRouter(prefix="/cases", tags=["cases"])
 
@@ -97,3 +103,38 @@ def download_report(case_id: uuid.UUID, db: Session = Depends(get_db)):
         media_type="application/pdf",
         headers={"Content-Disposition": f"attachment; filename=case_{case_id}_report.pdf"},
     )
+
+@router.post("/{case_id}/review")
+def submit_review(case_id: uuid.UUID, payload: ReviewCreate, db: Session = Depends(get_db)):
+    case = db.query(Case).filter(Case.id == case_id).first()
+    if not case:
+        raise HTTPException(status_code=404, detail="Case not found")
+
+    review = Review(
+        case_id=case_id,
+        decision=payload.decision,
+        reviewer_note=payload.reviewer_note,
+    )
+    db.add(review)
+    db.commit()
+    db.refresh(review)
+
+    return {
+        "id": str(review.id),
+        "decision": review.decision,
+        "reviewer_note": review.reviewer_note,
+        "reviewed_at": review.reviewed_at,
+    }
+
+
+@router.get("/{case_id}/review")
+def get_review(case_id: uuid.UUID, db: Session = Depends(get_db)):
+    review = db.query(Review).filter(Review.case_id == case_id).order_by(Review.reviewed_at.desc()).first()
+    if not review:
+        raise HTTPException(status_code=404, detail="No review yet")
+    return {
+        "id": str(review.id),
+        "decision": review.decision,
+        "reviewer_note": review.reviewer_note,
+        "reviewed_at": review.reviewed_at,
+    }

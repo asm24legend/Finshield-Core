@@ -2,7 +2,18 @@
 
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
-import { getCase, getAgentRuns, getRiskAssessment, Case, AgentRun, RiskAssessment } from "@/lib/api";
+import {
+  getCase,
+  getAgentRuns,
+  getRiskAssessment,
+  getReportUrl,
+  submitReview,
+  getReview,
+  Case,
+  AgentRun,
+  RiskAssessment,
+  Review,
+} from "@/lib/api";
 
 const AGENT_LABELS: Record<string, string> = {
   kyc_agent: "KYC Verification",
@@ -32,26 +43,31 @@ export default function CaseDetail() {
   const [caseData, setCaseData] = useState<Case | null>(null);
   const [risk, setRisk] = useState<RiskAssessment | null>(null);
   const [runs, setRuns] = useState<AgentRun[]>([]);
+  const [review, setReview] = useState<Review | null>(null);
+  const [submitting, setSubmitting] = useState(false);
 
   useEffect(() => {
     let active = true;
 
     async function poll() {
-  try {
-    const [c, r, riskData] = await Promise.all([
-      getCase(caseId),
-      getAgentRuns(caseId),
-      getRiskAssessment(caseId),
-    ]);
-    if (active) {
-      setCaseData(c);
-      setRuns(r);
-      setRisk(riskData);
+      try {
+        const [c, r, riskData, reviewData] = await Promise.all([
+          getCase(caseId),
+          getAgentRuns(caseId),
+          getRiskAssessment(caseId),
+          getReview(caseId).catch(() => null),
+        ]);
+        if (active) {
+          setCaseData(c);
+          setRuns(r);
+          setRisk(riskData);
+          setReview(reviewData);
+        }
+      } catch (err) {
+        console.error(err);
+      }
     }
-  } catch (err) {
-    console.error(err);
-  }
-}
+
     poll();
     const interval = setInterval(poll, 2000);
 
@@ -60,6 +76,18 @@ export default function CaseDetail() {
       clearInterval(interval);
     };
   }, [caseId]);
+
+  async function handleReview(decision: string) {
+    setSubmitting(true);
+    try {
+      const newReview = await submitReview(caseId, decision);
+      setReview(newReview);
+    } catch (err) {
+      console.error(err);
+    } finally {
+      setSubmitting(false);
+    }
+  }
 
   const runByAgent = Object.fromEntries(runs.map((r) => [r.agent_name, r]));
 
@@ -71,26 +99,75 @@ export default function CaseDetail() {
           Status:{" "}
           <span className="font-medium text-slate-700">{caseData?.status ?? "loading..."}</span>
         </p>
+
         {risk && (
-  <div className="mb-4 bg-white rounded-lg border border-slate-200 p-4 flex items-center justify-between">
-    <div>
-      <p className="text-xs text-slate-500">Risk score</p>
-      <p className="text-2xl font-semibold text-slate-900">{risk.score}</p>
-      <p className="text-xs text-slate-500 mt-1 max-w-sm">{risk.rationale}</p>
-    </div>
-    <span
-      className={`px-3 py-1 rounded-full text-xs font-medium whitespace-nowrap ${
-        risk.band === "low"
-          ? "bg-green-100 text-green-800"
-          : risk.band === "medium"
-          ? "bg-amber-100 text-amber-800"
-          : "bg-red-100 text-red-800"
-      }`}
-    >
-      {risk.band.toUpperCase()}
-    </span>
-  </div>
-)}
+          <div className="mb-4 bg-white rounded-lg border border-slate-200 p-4 flex items-center justify-between">
+            <div>
+              <p className="text-xs text-slate-500">Risk score</p>
+              <p className="text-2xl font-semibold text-slate-900">{risk.score}</p>
+              <p className="text-xs text-slate-500 mt-1 max-w-sm">{risk.rationale}</p>
+            </div>
+            <span
+              className={`px-3 py-1 rounded-full text-xs font-medium whitespace-nowrap ${
+                risk.band === "low"
+                  ? "bg-green-100 text-green-800"
+                  : risk.band === "medium"
+                  ? "bg-amber-100 text-amber-800"
+                  : "bg-red-100 text-red-800"
+              }`}
+            >
+              {risk.band.toUpperCase()}
+            </span>
+          </div>
+        )}
+
+        {risk && (
+          <a
+            href={getReportUrl(caseId)}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mb-4 text-sm text-slate-600 hover:text-slate-900 underline"
+          >
+            Download full PDF report
+          </a>
+        )}
+
+        {risk && !review && (
+          <div className="mb-4 bg-white rounded-lg border border-slate-200 p-4">
+            <p className="text-sm font-medium text-slate-700 mb-3">Reviewer decision</p>
+            <div className="flex gap-2">
+              <button
+                onClick={() => handleReview("approved")}
+                disabled={submitting}
+                className="flex-1 bg-green-600 text-white rounded-md py-2 text-sm font-medium hover:bg-green-700 disabled:opacity-50"
+              >
+                Approve
+              </button>
+              <button
+                onClick={() => handleReview("rejected")}
+                disabled={submitting}
+                className="flex-1 bg-red-600 text-white rounded-md py-2 text-sm font-medium hover:bg-red-700 disabled:opacity-50"
+              >
+                Reject
+              </button>
+              <button
+                onClick={() => handleReview("needs_info")}
+                disabled={submitting}
+                className="flex-1 bg-slate-200 text-slate-700 rounded-md py-2 text-sm font-medium hover:bg-slate-300 disabled:opacity-50"
+              >
+                Needs info
+              </button>
+            </div>
+          </div>
+        )}
+
+        {review && (
+          <div className="mb-4 bg-white rounded-lg border border-slate-200 p-4">
+            <p className="text-sm text-slate-500">
+              Reviewer decision: <span className="font-medium text-slate-800">{review.decision}</span>
+            </p>
+          </div>
+        )}
 
         <div className="bg-white rounded-lg border border-slate-200 divide-y divide-slate-100">
           {AGENT_ORDER.map((agentName) => {
