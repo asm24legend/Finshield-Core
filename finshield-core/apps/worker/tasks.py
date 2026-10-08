@@ -2,9 +2,11 @@ import sys
 import os
 sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "api"))
 
+from datetime import datetime, timezone
 from celery_app import celery_app
 from db import SessionLocal
 from models.case import Case
+from models.agent_run import AgentRun
 from graph.build_graph import build_case_graph
 
 case_graph = build_case_graph()
@@ -27,11 +29,15 @@ def run_case_pipeline(case_id: str):
         case.status = "completed"
         db.commit()
         return {"case_id": case_id, "status": "completed"}
-    except Exception as e:
+    except Exception:
         db.rollback()
+        # Any agent that was mid-run when the crash happened must not stay "running".
+        db.query(AgentRun).filter(
+            AgentRun.case_id == case_id, AgentRun.status == "running"
+        ).update({"status": "failed", "finished_at": datetime.now(timezone.utc)})
         if case:
             case.status = "failed"
-            db.commit()
-        raise e
+        db.commit()
+        raise
     finally:
         db.close()

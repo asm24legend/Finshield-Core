@@ -2,14 +2,13 @@ import sys
 import os
 sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "..", "api"))
 
-import json
-import ollama
 from datetime import datetime, timezone
 from db import SessionLocal
 from models.agent_run import AgentRun
 from models.risk_assessment import RiskAssessment
 from graph.state import CaseState
 from services.regulation_retrieval import find_relevant_regulations
+from services.llm_client import chat_json
 from prompts.aggregator_prompt import AGGREGATOR_SYSTEM_PROMPT, build_aggregator_prompt
 
 
@@ -25,51 +24,62 @@ def aggregator_agent(state: CaseState) -> CaseState:
         sanctions_output = state.get("sanctions_output", {})
         market_risk_output = state.get("market_risk_output", {})
 
-        # Build a query string from the case's findings so far, to retrieve
-        # the most relevant regulatory context for THIS specific case.
         query_text = " ".join([
             kyc_output.get("summary", ""),
             sanctions_output.get("summary", ""),
             market_risk_output.get("summary", ""),
         ]).strip()
 
-        regulations = find_relevant_regulations(db, query_text, top_k=3) if query_text else []
+        try:
+            regulations = find_relevant_regulations(db, query_text, top_k=3) if query_text else []
+        except Exception:
+            db.rollback()
+            regulations = []  # retrieval failure shouldn't block the case; it's noted below
 
         user_prompt = build_aggregator_prompt(kyc_output, sanctions_output, market_risk_output, regulations)
 
-        response = ollama.chat(
-            model="llama3.1:8b",
-            messages=[
-                {"role": "system", "content": AGGREGATOR_SYSTEM_PROMPT},
-                {"role": "user", "content": user_prompt},
-            ],
-            format="json",
+        parsed = chat_json(
+            "llama3.1:8b", AGGREGATOR_SYSTEM_PROMPT, user_prompt,
+            fallback={"score": 50, "band": "medium", "rationale": "AI aggregation unavailable. Manual review required.", "confidence": 0.0},
         )
 
-        raw_content = response["message"]["content"]
-        try:
-            parsed = json.loads(raw_content)
-        except json.JSONDecodeError:
-            parsed = {
-                "score": 50,
-                "band": "medium",
-                "rationale": f"LLM returned unparseable output: {raw_content[:200]}",
-                "confidence": 0.0,
-            }
+        score = parsed.get("score", 50)
+        band = parsed.get("band", "medium")
+        rationale = parsed.get("rationale", "No rationale provided")
+
+        # --- Deterministic guardrails (plain code, applied after the LLM) ---
+        degraded_agents = [
+            name for name, out in [
+                ("kyc", kyc_output), ("market_risk", market_risk_output)
+            ] if out.get("degraded")
+        ]
+        if not parsed["llm_ok"]:
+            degraded_agents.append("aggregator")
+
+        sanctions_flagged = bool(sanctions_output.get("requires_manual_review"))
+        requires_manual_review = sanctions_flagged or bool(degraded_agents)
+
+        # A sanctions hit or a failed component must never end up labelled "low".
+        if requires_manual_review and band == "low":
+            band = "medium"
+            rationale += " [Guardrail: band raised from low because a sanctions flag or degraded component requires manual review.]"
 
         final_output = {
-            "score": parsed.get("score", 50),
-            "band": parsed.get("band", "medium"),
-            "rationale": parsed.get("rationale", "No rationale provided"),
+            "score": score,
+            "band": band,
+            "rationale": rationale,
             "confidence": parsed.get("confidence", 0.5),
-            "regulations_cited": regulations,   # exact chunks used, for audit
+            "requires_manual_review": requires_manual_review,
+            "degraded_components": degraded_agents,
+            "regulations_cited": regulations,
+            "error": parsed.get("error"),
         }
 
         assessment = RiskAssessment(
             case_id=state["case_id"],
-            score=final_output["score"],
-            band=final_output["band"],
-            rationale=final_output["rationale"],
+            score=score,
+            band=band,
+            rationale=rationale,
             model_version="llama3.1:8b + nomic-embed-text",
         )
         db.add(assessment)
