@@ -138,3 +138,32 @@ def get_review(case_id: uuid.UUID, db: Session = Depends(get_db)):
         "reviewer_note": review.reviewer_note,
         "reviewed_at": review.reviewed_at,
     }
+
+@router.get("")
+def list_cases(limit: int = 50, db: Session = Depends(get_db)):
+    cases = db.query(Case).order_by(Case.created_at.desc()).limit(limit).all()
+    case_ids = [c.id for c in cases]
+    if not case_ids:
+        return []
+
+    entities = {e.id: e for e in db.query(Entity).filter(Entity.id.in_([c.entity_id for c in cases])).all()}
+    assessments = {a.case_id: a for a in db.query(RiskAssessmentModel).filter(RiskAssessmentModel.case_id.in_(case_ids)).all()}
+
+    # Newest review per case: rows come back newest-first, so keep the first one seen.
+    reviews = {}
+    for r in db.query(Review).filter(Review.case_id.in_(case_ids)).order_by(Review.reviewed_at.desc()).all():
+        reviews.setdefault(r.case_id, r)
+
+    return [
+        {
+            "id": str(c.id),
+            "entity_name": entities[c.entity_id].name if c.entity_id in entities else "Unknown",
+            "case_type": c.case_type,
+            "status": c.status,
+            "band": assessments[c.id].band if c.id in assessments else None,
+            "score": assessments[c.id].score if c.id in assessments else None,
+            "review_decision": reviews[c.id].decision if c.id in reviews else None,
+            "created_at": c.created_at,
+        }
+        for c in cases
+    ]

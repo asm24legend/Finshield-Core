@@ -6,7 +6,7 @@ import {
   getCase,
   getAgentRuns,
   getRiskAssessment,
-  getReportUrl,
+  downloadReport,
   submitReview,
   getReview,
   Case,
@@ -94,7 +94,10 @@ export default function CaseDetail() {
   return (
     <main className="min-h-screen bg-slate-50 px-4 py-10">
       <div className="max-w-2xl mx-auto">
-        <h1 className="text-lg font-semibold text-slate-900 mb-1">Case {caseId.slice(0, 8)}</h1>
+        <a href="/cases" className="text-sm text-slate-500 underline hover:text-slate-800">
+          ← All cases
+        </a>
+        <h1 className="text-lg font-semibold text-slate-900 mb-1 mt-2">Case {caseId.slice(0, 8)}</h1>
         <p className="text-sm text-slate-500 mb-6">
           Status:{" "}
           <span className="font-medium text-slate-700">{caseData?.status ?? "loading..."}</span>
@@ -122,14 +125,12 @@ export default function CaseDetail() {
         )}
 
         {risk && (
-          <a
-            href={getReportUrl(caseId)}
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            onClick={() => downloadReport(caseId).catch(console.error)}
             className="inline-block mb-4 text-sm text-slate-600 hover:text-slate-900 underline"
           >
             Download full PDF report
-          </a>
+          </button>
         )}
 
         {risk && !review && (
@@ -178,12 +179,8 @@ export default function CaseDetail() {
                   <StatusDot status={run?.status} />
                 </div>
                 <div className="flex-1">
-                  <p className="text-sm font-medium text-slate-800">
-                    {AGENT_LABELS[agentName]}
-                  </p>
-                  <p className="text-xs text-slate-500 mt-0.5">
-                    {run?.status ?? "pending"}
-                  </p>
+                  <p className="text-sm font-medium text-slate-800">{AGENT_LABELS[agentName]}</p>
+                  <p className="text-xs text-slate-500 mt-0.5">{run?.status ?? "pending"}</p>
                   {run?.output && (
                     <p className="text-xs text-slate-600 mt-2 bg-slate-50 rounded px-2 py-1.5">
                       {String(run.output.summary ?? JSON.stringify(run.output))}
